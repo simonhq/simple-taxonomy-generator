@@ -7,6 +7,8 @@
 # Update the following values to setup a new taxonomy
 
 # %%
+import datetime
+
 ontname = "cybersecurity" #change this to the name of the taxonomy
 taxtype = "csdomain" #change this to the name of the schema
 taxtypename  = "Cyber Security Domain" #change this to the display name of the schema
@@ -16,8 +18,9 @@ arttop = "articles" #change this the specific name of the top level concept for 
 conclass = "keyword" #change this the specific class that inherits from skos:Concept (or just use a keyword)
 conclassname  = "Cyber Security Keyword" #change this to the display name of the concepts
 contop = "keywords" #change this the specific name of the top level concept for the keywords
+dtoday = datetime.date.today()
 CSVF = "./CSTax.csv" #change this to the name of the csv file to consume
-TAXA = "./out_tax.ttl" #change this to the output file to write the taxonomy to
+TAXA = "./out_tax"+ str(dtoday) +".ttl" #change this to the output file to write the taxonomy to
 
 # %% [markdown]
 # Libraries
@@ -33,6 +36,7 @@ TAXA = "./out_tax.ttl" #change this to the output file to write the taxonomy to
 from rdflib import Graph, URIRef, Literal, Namespace, BNode
 from rdflib.namespace import RDF, RDFS, SKOS, OWL, PROV, XSD, SDO, DCTERMS
 from utils import *
+
 import csv
 
 # %% [markdown]
