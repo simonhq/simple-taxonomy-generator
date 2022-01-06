@@ -1,0 +1,2194 @@
+# baseuri: https://data.uc.edu.au/def/csdomain
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.uc.edu.au/def/csdomain> a skos:ConceptScheme ;
+    skos:hasTopConcept <https://data.uc.edu.au/def/cybersecurity/article#articles>,
+        <https://data.uc.edu.au/def/cybersecurity/vocabulary#vocabs> ;
+    skos:prefLabel "A Cyber Security Domain" .
+
+<https://data.uc.edu.au/def/cybersecurity/article#APWG_phishing_trends_report_4th_quarter_2017> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/article#articles> ;
+    skos:exactMatch <https://data.uc.edu.au/def/cybersecurity/article#6> ;
+    skos:prefLabel "APWG phishing trends report 4th quarter 2017" .
+
+<https://data.uc.edu.au/def/cybersecurity/article#A_Second_Article> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/article#articles> ;
+    skos:exactMatch <https://data.uc.edu.au/def/cybersecurity/article#1a> ;
+    skos:prefLabel "A Second Article" .
+
+<https://data.uc.edu.au/def/cybersecurity/article#A_Taxonomy_of_Phishing:_Attack_Types_Spanning_Economic,_Temporal,_Breath,_and_Target_Boundaries> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/article#articles> ;
+    skos:exactMatch <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "A Taxonomy of Phishing: Attack Types Spanning Economic, Temporal, Breath, and Target Boundaries" .
+
+<https://data.uc.edu.au/def/cybersecurity/article#A_fourth_article> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/article#articles> ;
+    skos:exactMatch <https://data.uc.edu.au/def/cybersecurity/article#1c>,
+        <https://data.uc.edu.au/def/cybersecurity/article#5a> ;
+    skos:prefLabel "A fourth article" .
+
+<https://data.uc.edu.au/def/cybersecurity/article#A_third_article> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/article#articles> ;
+    skos:exactMatch <https://data.uc.edu.au/def/cybersecurity/article#1b> ;
+    skos:prefLabel "A third article" .
+
+<https://data.uc.edu.au/def/cybersecurity/article#a_second_base_article> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/article#articles> ;
+    skos:exactMatch <https://data.uc.edu.au/def/cybersecurity/article#5> ;
+    skos:prefLabel "a second base article" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1antiphishingdetector> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1antiphishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#antiphishingdetector> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Detector" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1antiphishingemailtoolmechanismblock> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1antiphishingemailtoolmechanism> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#antiphishingemailtoolmechanismblock> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Block" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1antiphishingemailtoolmechanismfilter> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1antiphishingemailtoolmechanism> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#antiphishingemailtoolmechanismfilter> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Filter" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1antiphishingsoftwarechoice> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1antiphishingsoftware> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#antiphishingsoftwarechoice> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Choice" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1antiphishingsoftwarecybersecurity> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1antiphishingsoftware> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#antiphishingsoftwarecybersecurity> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Cybersecurity" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1breachsecurity> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1breach> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#breachsecurity> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Security" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1breachsocialengineered> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1breachsocial> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#breachsocialengineered> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Engineered" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1cybersecuritycountermeasuretechnicalcircumventing> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1cybersecuritycountermeasuretechnical> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#cybersecuritycountermeasuretechnicalcircumventing> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Circumventing" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1linkmalicious> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1link> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#linkmalicious> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Malicious" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1linkweak> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1link> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#linkweak> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Weak" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1personcriminalcyber> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1personcriminal> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#personcriminalcyber> ;
+    skos:exactMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#1cybercriminal> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Cyber" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1personprofessionalsecurity> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1personprofessional> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#personprofessionalsecurity> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Security" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingartifact> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingartifact> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Artifact" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingassetvulnerable> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingasset> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingassetvulnerable> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Vulnerable" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackcomplex> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattack> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackcomplex> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Complex" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackcomplexity> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattack> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackcomplexity> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Complexity" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackcountermeasureentwinement> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackcountermeasure> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackcountermeasureentwinement> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Entwinement" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackculprit> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattack> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackculprit> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Culprit" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackdefenceeffectattack_diffusion> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackdefenceeffect> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdefenceeffectattack_diffusion> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Attack diffusion" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackdefenceeffectenforcement> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackdefenceeffect> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdefenceeffectenforcement> ;
+    skos:exactMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#1cphishingattackdefenceeffectenforcement> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Enforcement" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackdefenceeffectgovernment_mandate> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackdefenceeffect> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdefenceeffectgovernment_mandate> ;
+    skos:exactMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#1bphishingattackdefenceeffectgovernment_mandate> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Government mandate" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackdefenceeffectvulnerability_disclosure> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackdefenceeffect> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdefenceeffectvulnerability_disclosure> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Vulnerability disclosure" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackdefencemethod> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackdefence> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdefencemethod> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Method" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackdefenceperimeter> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackdefence> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdefenceperimeter> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Perimeter" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackdefenceproblem> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackdefence> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdefenceproblem> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Problem" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackdefencestrategy> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackdefence> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdefencestrategy> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Strategy" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackdifusion> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattack> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdifusion> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Difusion" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackexamination> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattack> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackexamination> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Examination" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackform> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattack> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackform> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Form" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackfuturedefer> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackfuture> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackfuturedefer> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Defer" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackholistic> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattack> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackholistic> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Holistic" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackidentification> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattack> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackidentification> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Identification" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackimpactpotential> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackimpact> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackimpactpotential> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Potential" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackmass> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattack> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackmass> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Mass" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackmitigation> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattack> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackmitigation> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Mitigation" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackorganisationimpactpotential> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackorganisationimpact> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackorganisationimpactpotential> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Potential" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattacksuccessful> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattack> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattacksuccessful> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Successful" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattacktarget> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattack> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattacktarget> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Target" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattacktargeted> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattack> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattacktargeted> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Targeted" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattemptunique> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattempt> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattemptunique> ;
+    skos:exactMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#6phishingattemptunique> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Unique" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasurebypass> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasure> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasurebypass> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Bypass" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasuredesign> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasure> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasuredesign> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Design" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureeffective> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasure> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureeffective> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Effective" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureeffectiveness> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasure> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureeffectiveness> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Effectiveness" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureindividualinfluencetactic> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureindividualinfluence> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualinfluencetactic> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Tactic" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureindividualintention> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureindividual> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualintention> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Intention" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureindividualknowledgecybersecurity> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureindividualknowledge> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualknowledgecybersecurity> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Cybersecurity" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureindividualmotivationbehaviourprotectionassetinformation> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureindividualmotivationbehaviourprotectionasset> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualmotivationbehaviourprotectionassetinformation> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Information" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureindividualprogramSETA> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureindividualprogram> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualprogramSETA> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Seta" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureindividualtraining> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureindividual> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualtraining> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Training" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureorganisationalauditing> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureorganisational> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisationalauditing> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Auditing" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureorganisationalgovernance> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureorganisational> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisationalgovernance> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Governance" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureorganisationallossinformationconfidential> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureorganisationallossinformation> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisationallossinformationconfidential> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Confidential" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureorganisationalnetwork> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureorganisational> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisationalnetwork> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Network" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureorganisationalpolicy> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureorganisational> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisationalpolicy> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Policy" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureorganisationalsoftwareantiphishingchoice> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureorganisationalsoftwareantiphishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisationalsoftwareantiphishingchoice> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Choice" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureorganisationalsoftwareantiphishingcybersecurity> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureorganisationalsoftwareantiphishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisationalsoftwareantiphishingcybersecurity> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Cybersecurity" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureselection> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasure> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureselection> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Selection" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasuretechnicalblacklisting> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasuretechnical> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasuretechnicalblacklisting> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Blacklisting" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasuretechnicalblocking> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasuretechnical> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasuretechnicalblocking> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Blocking" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasuretechnicalfirewall> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasuretechnical> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasuretechnicalfirewall> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Firewall" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasuretechnicalsoftwareencryption> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasuretechnicalsoftware> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasuretechnicalsoftwareencryption> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Encryption" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingemail> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingemail> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Email" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingevolutiondynamic> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingevolution> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingevolutiondynamic> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Dynamic" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingformcloning> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingform> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingformcloning> ;
+    skos:definition "Replicating a legitimate email and replacing the link or file with a malicious version." ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Cloning" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingformpharming> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingform> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingformpharming> ;
+    skos:definition "The practice of directing internet users to a bogus website that mimics a legitimate one to harvest confidential information" ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Pharming" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingformspear> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingform> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingformspear> ;
+    skos:definition "Attempts directed at specific individuals within a group using personal information as a means to increase success." ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Spear" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingformwhaling> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingform> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingformwhaling> ;
+    skos:definition "Directed specifically at senior executives or other high profile targets within a business by using highly customized threat intelligence (https://www.phishingbox.com/news/phishing-news/types-of-phishing-defined, https://csoonline.com/artcle-3234716/phishing/types-of-phishing-attacks-and-how-to-identify-them.html, https://www.antiphishing.org" ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Whaling" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingimpactevaluation> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingimpact> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingimpactevaluation> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Evaluation" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishinginstance> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishinginstance> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Instance" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishinginvestment> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishinginvestment> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Investment" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingkitfree> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingkit> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingkitfree> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Free" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishinglifecyclephasebreachduring> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishinglifecyclephasebreach> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishinglifecyclephasebreachduring> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "During" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishinglifecyclephasebreachpost> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishinglifecyclephasebreach> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishinglifecyclephasebreachpost> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Post" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishinglifecyclephasebreachpre> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishinglifecyclephasebreach> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishinglifecyclephasebreachpre> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Pre" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingmessageeffectivecraft> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingmessageeffective> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingmessageeffectivecraft> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Craft" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingmessagegeneral> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingmessage> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingmessagegeneral> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "General" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingmessagevolume> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingmessage> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingmessagevolume> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Volume" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingpayload> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingpayload> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Payload" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingpayoff> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingpayoff> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Payoff" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingperimeterspillover> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingperimeter> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingperimeterspillover> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Spillover" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchdirectioncontext_specific_theory> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchdirection> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchdirectioncontext_specific_theory> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Context specific theory" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchdirectioncountermeasureintertwinement> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchdirectioncountermeasure> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchdirectioncountermeasureintertwinement> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Intertwinement" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchdirectioncountermeasureorganisational> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchdirectioncountermeasure> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchdirectioncountermeasureorganisational> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Organisational" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchdirectioncountermeasuresaliency> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchdirectioncountermeasure> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchdirectioncountermeasuresaliency> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Saliency" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchmethodanalysispsychometric> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchmethodanalysis> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchmethodanalysispsychometric> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Psychometric" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchmethodexperimentfield> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchmethodexperiment> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchmethodexperimentfield> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Field" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchmethodgenre_tree_kernel> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchmethod> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchmethodgenre_tree_kernel> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Genre tree kernel" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchmethodmodelingeconomic> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchmethodmodeling> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchmethodmodelingeconomic> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Economic" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchtheorycontext_specific> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchtheory> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchtheorycontext_specific> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Context specific" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchtheorycontextualised> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchtheory> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchtheorycontextualised> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Contextualised" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchtheorymotivationprotection> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchtheorymotivation> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchtheorymotivationprotection> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Protection" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchtheoryparallel_process_model__PMT_> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchtheory> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchtheoryparallel_process_model__PMT_> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Parallel process model (pmt)" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchtheorypersuasiontactic> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchtheorypersuasion> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchtheorypersuasiontactic> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Tactic" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchtheorystatistical_learning__SLT_> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchtheory> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchtheorystatistical_learning__SLT_> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Statistical learning (slt)" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingrulegeneralised> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingrule> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingrulegeneralised> ;
+    skos:definition "Relatively simple heuristics for how to identify phishing" ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Generalised" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingspear> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingspear> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Spear" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingstudyfuture> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingstudy> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingstudyfuture> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Future" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingstudylevelorganisational> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingstudylevel> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingstudylevelorganisational> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Organisational" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingstudylongitudinalextended> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingstudylongitudinal> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingstudylongitudinalextended> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Extended" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingsystem> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingsystem> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "System" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingtargeted> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingtargeted> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Targeted" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingtaxonomy> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingtaxonomy> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Taxonomy" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingtrainingprogram> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingtraining> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingtrainingprogram> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Program" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingtrainingproviderscorporateonlineLawRoom> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingtrainingproviderscorporateonline> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingtrainingproviderscorporateonlineLawRoom> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Lawroom" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingwarningdesensitize> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingwarning> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingwarningdesensitize> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Desensitize" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingwarningdesign> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingwarning> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingwarningdesign> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Design" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingwarninginformation_systeminterjectiontechnological> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingwarninginformation_systeminterjection> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingwarninginformation_systeminterjectiontechnological> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Technological" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1sourcetrusted> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1source> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#sourcetrusted> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Trusted" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1sourcetrustworthy> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1source> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#sourcetrustworthy> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Trustworthy" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1toolcostlow> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1toolcost> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#toolcostlow> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Low" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1toolsetturnkey> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1toolset> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#toolsetturnkey> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Turnkey" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1webdark> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1web> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#webdark> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Dark" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1weblight> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1web> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#weblight> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Light" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1websiteauthenticate> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1website> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#websiteauthenticate> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Authenticate" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1websitefakedetectionsystem> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1websitefakedetection> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#websitefakedetectionsystem> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "System" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#2websiteauthenticate> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#2website> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#websiteauthenticate> ;
+    skos:definition "An extra defintion" ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#2> ;
+    skos:prefLabel "Authenticate" .
+
+<https://data.uc.edu.au/def/cybersecurity/article#1a> a dct:BibliographicResource,
+        skos:ConceptScheme ;
+    dct:creator "Simon Tester" ;
+    dct:date 2022 ;
+    dct:source "A Second Article" ;
+    skos:prefLabel "A Second Article" .
+
+<https://data.uc.edu.au/def/cybersecurity/article#5> a dct:BibliographicResource,
+        skos:ConceptScheme ;
+    dct:creator "test" ;
+    dct:date 2004 ;
+    dct:source "a second base article" ;
+    skos:prefLabel "a second base article" .
+
+<https://data.uc.edu.au/def/cybersecurity/article#5a> a dct:BibliographicResource,
+        skos:ConceptScheme ;
+    dct:creator "Willison and Warketin" ;
+    dct:date 2013 ;
+    dct:source "A fourth article" ;
+    skos:prefLabel "A fourth article" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1antiphishingemail> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1antiphishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#antiphishingemail> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Email" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1antiphishingemailtool> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1antiphishingemail> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#antiphishingemailtool> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Tool" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1bphishingattackdefenceeffectgovernment_mandate> a skos:Concept ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1b> ;
+    skos:prefLabel "phishing | attack | defence | effect |  government mandate" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1breachsocial> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1breach> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#breachsocial> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Social" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1cloning_social_engineering> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#cloning_social_engineering> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Cloning social engineering" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1cphishingattackdefenceeffectenforcement> a skos:Concept ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1c> ;
+    skos:prefLabel "phishing | attack | defence |effect |  enforcement" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1cybersecuritycountermeasure> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1cybersecurity> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#cybersecuritycountermeasure> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Countermeasure" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1cybersecuritycountermeasuretechnical> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1cybersecuritycountermeasure> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#cybersecuritycountermeasuretechnical> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Technical" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1malware> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#malware> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Malware" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1personcriminal> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1person> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#personcriminal> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Criminal" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1personprofessional> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1person> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#personprofessional> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Professional" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1pharming> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#pharming> ;
+    skos:exactMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#1websitefake> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Pharming" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingasset> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingasset> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Asset" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackcountermeasure> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattack> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackcountermeasure> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Countermeasure" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackfuture> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattack> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackfuture> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Future" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackimpact> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattack> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackimpact> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Impact" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackorganisation> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattack> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackorganisation> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Organisation" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackorganisationimpact> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackorganisation> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackorganisationimpact> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Impact" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattempt> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattempt> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Attempt" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureindividualinfluence> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureindividual> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualinfluence> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Influence" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureindividualknowledge> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureindividual> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualknowledge> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Knowledge" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureindividualmotivation> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureindividual> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualmotivation> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Motivation" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureindividualmotivationbehaviour> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureindividualmotivation> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualmotivationbehaviour> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Behaviour" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureindividualmotivationbehaviourprotection> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureindividualmotivationbehaviour> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualmotivationbehaviourprotection> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Protection" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureindividualmotivationbehaviourprotectionasset> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureindividualmotivationbehaviourprotection> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualmotivationbehaviourprotectionasset> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Asset" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureindividualprogram> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureindividual> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualprogram> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Program" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureorganisationalloss> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureorganisational> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisationalloss> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Loss" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureorganisationallossinformation> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureorganisationalloss> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisationallossinformation> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Information" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureorganisationalsoftware> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureorganisational> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisationalsoftware> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Software" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasuretechnicalsoftware> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasuretechnical> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasuretechnicalsoftware> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Software" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingevolution> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingevolution> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Evolution" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingimpact> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingimpact> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Impact" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingkit> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingkit> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Kit" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishinglifecycle> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishinglifecycle> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Lifecycle" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishinglifecyclephase> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishinglifecycle> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishinglifecyclephase> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Phase" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingmessageeffective> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingmessage> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingmessageeffective> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Effective" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingperimeter> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingperimeter> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Perimeter" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchmethodanalysis> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchmethod> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchmethodanalysis> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Analysis" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchmethodexperiment> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchmethod> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchmethodexperiment> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Experiment" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchmethodmodeling> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchmethod> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchmethodmodeling> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Modeling" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchtheorymotivation> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchtheory> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchtheorymotivation> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Motivation" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchtheorypersuasion> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchtheory> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchtheorypersuasion> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Persuasion" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingrule> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingrule> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Rule" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingstudylevel> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingstudy> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingstudylevel> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Level" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingstudylongitudinal> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingstudy> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingstudylongitudinal> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Longitudinal" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingtrainingproviders> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingtraining> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingtrainingproviders> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Providers" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingtrainingproviderscorporate> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingtrainingproviders> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingtrainingproviderscorporate> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Corporate" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingtrainingproviderscorporateonline> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingtrainingproviderscorporate> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingtrainingproviderscorporateonline> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Online" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingwarninginformation_system> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingwarning> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingwarninginformation_system> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Information system" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingwarninginformation_systeminterjection> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingwarninginformation_system> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingwarninginformation_systeminterjection> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Interjection" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1target> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#target> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Target" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1taxonomy> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#taxonomy> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Taxonomy" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1toolcost> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1tool> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#toolcost> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Cost" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1toolset> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1tool> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#toolset> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Set" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1websitefakedetection> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1websitefake> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#websitefakedetection> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Detection" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1websitepharming> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1website> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#websitepharming> ;
+    skos:exactMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#1websitefake> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Pharming" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1whaling> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#whaling> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Whaling" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#6phishingattemptunique> a skos:Concept ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#6> ;
+    skos:prefLabel "phishing | attempt | unique " .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#antiphishingdetector> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#antiphishing> ;
+    skos:prefLabel "Detector" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#antiphishingemailtoolmechanismblock> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#antiphishingemailtoolmechanism> ;
+    skos:prefLabel "Block" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#antiphishingemailtoolmechanismfilter> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#antiphishingemailtoolmechanism> ;
+    skos:prefLabel "Filter" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#antiphishingsoftwarechoice> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#antiphishingsoftware> ;
+    skos:prefLabel "Choice" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#antiphishingsoftwarecybersecurity> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#antiphishingsoftware> ;
+    skos:prefLabel "Cybersecurity" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#breachsecurity> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#breach> ;
+    skos:prefLabel "Security" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#breachsocialengineered> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#breachsocial> ;
+    skos:prefLabel "Engineered" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#cloning_social_engineering> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#vocabs> ;
+    skos:prefLabel "Cloning social engineering" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#cybercriminal> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#vocabs> ;
+    skos:prefLabel "Cybercriminal" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#cybersecuritycountermeasuretechnicalcircumventing> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#cybersecuritycountermeasuretechnical> ;
+    skos:prefLabel "Circumventing" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#linkmalicious> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#link> ;
+    skos:prefLabel "Malicious" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#linkweak> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#link> ;
+    skos:prefLabel "Weak" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#malware> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#vocabs> ;
+    skos:prefLabel "Malware" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#personcriminalcyber> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#personcriminal> ;
+    skos:prefLabel "Cyber" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#personprofessionalsecurity> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#personprofessional> ;
+    skos:prefLabel "Security" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#pharming> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#vocabs> ;
+    skos:prefLabel "Pharming" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingartifact> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishing> ;
+    skos:prefLabel "Artifact" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingassetvulnerable> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingasset> ;
+    skos:prefLabel "Vulnerable" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackcomplex> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattack> ;
+    skos:prefLabel "Complex" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackcomplexity> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattack> ;
+    skos:prefLabel "Complexity" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackcountermeasureentwinement> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackcountermeasure> ;
+    skos:prefLabel "Entwinement" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackculprit> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattack> ;
+    skos:prefLabel "Culprit" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdefenceeffectattack_diffusion> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdefenceeffect> ;
+    skos:prefLabel "Attack diffusion" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdefenceeffectenforcement> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdefenceeffect> ;
+    skos:prefLabel "Enforcement" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdefenceeffectgovernment_mandate> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdefenceeffect> ;
+    skos:prefLabel "Government mandate" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdefenceeffectvulnerability_disclosure> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdefenceeffect> ;
+    skos:prefLabel "Vulnerability disclosure" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdefencemethod> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdefence> ;
+    skos:prefLabel "Method" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdefenceperimeter> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdefence> ;
+    skos:prefLabel "Perimeter" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdefenceproblem> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdefence> ;
+    skos:prefLabel "Problem" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdefencestrategy> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdefence> ;
+    skos:prefLabel "Strategy" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdifusion> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattack> ;
+    skos:prefLabel "Difusion" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackexamination> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattack> ;
+    skos:prefLabel "Examination" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackform> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattack> ;
+    skos:prefLabel "Form" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackfuturedefer> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackfuture> ;
+    skos:prefLabel "Defer" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackholistic> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattack> ;
+    skos:prefLabel "Holistic" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackidentification> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattack> ;
+    skos:prefLabel "Identification" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackimpactpotential> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackimpact> ;
+    skos:prefLabel "Potential" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackmass> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattack> ;
+    skos:prefLabel "Mass" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackmitigation> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattack> ;
+    skos:prefLabel "Mitigation" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackorganisationimpactpotential> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackorganisationimpact> ;
+    skos:prefLabel "Potential" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattacksuccessful> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattack> ;
+    skos:prefLabel "Successful" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattacktarget> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattack> ;
+    skos:prefLabel "Target" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattacktargeted> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattack> ;
+    skos:prefLabel "Targeted" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattemptunique> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattempt> ;
+    skos:prefLabel "Unique" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasurebypass> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasure> ;
+    skos:prefLabel "Bypass" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasuredesign> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasure> ;
+    skos:prefLabel "Design" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureeffective> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasure> ;
+    skos:prefLabel "Effective" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureeffectiveness> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasure> ;
+    skos:prefLabel "Effectiveness" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualinfluencetactic> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualinfluence> ;
+    skos:prefLabel "Tactic" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualintention> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividual> ;
+    skos:prefLabel "Intention" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualknowledgecybersecurity> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualknowledge> ;
+    skos:prefLabel "Cybersecurity" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualmotivationbehaviourprotectionassetinformation> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualmotivationbehaviourprotectionasset> ;
+    skos:prefLabel "Information" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualprogramSETA> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualprogram> ;
+    skos:prefLabel "Seta" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualtraining> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividual> ;
+    skos:prefLabel "Training" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisationalauditing> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisational> ;
+    skos:prefLabel "Auditing" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisationalgovernance> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisational> ;
+    skos:prefLabel "Governance" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisationallossinformationconfidential> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisationallossinformation> ;
+    skos:prefLabel "Confidential" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisationalnetwork> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisational> ;
+    skos:prefLabel "Network" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisationalpolicy> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisational> ;
+    skos:prefLabel "Policy" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisationalsoftwareantiphishingchoice> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisationalsoftwareantiphishing> ;
+    skos:prefLabel "Choice" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisationalsoftwareantiphishingcybersecurity> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisationalsoftwareantiphishing> ;
+    skos:prefLabel "Cybersecurity" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureselection> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasure> ;
+    skos:prefLabel "Selection" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasuretechnicalblacklisting> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasuretechnical> ;
+    skos:prefLabel "Blacklisting" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasuretechnicalblocking> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasuretechnical> ;
+    skos:prefLabel "Blocking" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasuretechnicalfirewall> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasuretechnical> ;
+    skos:prefLabel "Firewall" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasuretechnicalsoftwareencryption> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasuretechnicalsoftware> ;
+    skos:prefLabel "Encryption" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingemail> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishing> ;
+    skos:prefLabel "Email" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingevolutiondynamic> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingevolution> ;
+    skos:prefLabel "Dynamic" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingformcloning> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingform> ;
+    skos:prefLabel "Cloning" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingformpharming> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingform> ;
+    skos:prefLabel "Pharming" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingformspear> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingform> ;
+    skos:prefLabel "Spear" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingformwhaling> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingform> ;
+    skos:prefLabel "Whaling" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingimpactevaluation> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingimpact> ;
+    skos:prefLabel "Evaluation" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishinginstance> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishing> ;
+    skos:prefLabel "Instance" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishinginvestment> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishing> ;
+    skos:prefLabel "Investment" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingkitfree> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingkit> ;
+    skos:prefLabel "Free" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishinglifecyclephasebreachduring> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishinglifecyclephasebreach> ;
+    skos:prefLabel "During" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishinglifecyclephasebreachpost> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishinglifecyclephasebreach> ;
+    skos:prefLabel "Post" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishinglifecyclephasebreachpre> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishinglifecyclephasebreach> ;
+    skos:prefLabel "Pre" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingmessageeffectivecraft> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingmessageeffective> ;
+    skos:prefLabel "Craft" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingmessagegeneral> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingmessage> ;
+    skos:prefLabel "General" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingmessagevolume> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingmessage> ;
+    skos:prefLabel "Volume" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingpayload> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishing> ;
+    skos:prefLabel "Payload" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingpayoff> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishing> ;
+    skos:prefLabel "Payoff" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingperimeterspillover> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingperimeter> ;
+    skos:prefLabel "Spillover" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchdirectioncontext_specific_theory> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchdirection> ;
+    skos:prefLabel "Context specific theory" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchdirectioncountermeasureintertwinement> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchdirectioncountermeasure> ;
+    skos:prefLabel "Intertwinement" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchdirectioncountermeasureorganisational> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchdirectioncountermeasure> ;
+    skos:prefLabel "Organisational" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchdirectioncountermeasuresaliency> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchdirectioncountermeasure> ;
+    skos:prefLabel "Saliency" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchmethodanalysispsychometric> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchmethodanalysis> ;
+    skos:prefLabel "Psychometric" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchmethodexperimentfield> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchmethodexperiment> ;
+    skos:prefLabel "Field" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchmethodgenre_tree_kernel> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchmethod> ;
+    skos:prefLabel "Genre tree kernel" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchmethodmodelingeconomic> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchmethodmodeling> ;
+    skos:prefLabel "Economic" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchtheorycontext_specific> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchtheory> ;
+    skos:prefLabel "Context specific" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchtheorycontextualised> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchtheory> ;
+    skos:prefLabel "Contextualised" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchtheorymotivationprotection> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchtheorymotivation> ;
+    skos:prefLabel "Protection" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchtheoryparallel_process_model__PMT_> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchtheory> ;
+    skos:prefLabel "Parallel process model (pmt)" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchtheorypersuasiontactic> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchtheorypersuasion> ;
+    skos:prefLabel "Tactic" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchtheorystatistical_learning__SLT_> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchtheory> ;
+    skos:prefLabel "Statistical learning (slt)" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingrulegeneralised> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingrule> ;
+    skos:prefLabel "Generalised" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingspear> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishing> ;
+    skos:prefLabel "Spear" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingstudyfuture> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingstudy> ;
+    skos:prefLabel "Future" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingstudylevelorganisational> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingstudylevel> ;
+    skos:prefLabel "Organisational" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingstudylongitudinalextended> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingstudylongitudinal> ;
+    skos:prefLabel "Extended" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingsystem> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishing> ;
+    skos:prefLabel "System" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingtargeted> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishing> ;
+    skos:prefLabel "Targeted" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingtaxonomy> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishing> ;
+    skos:prefLabel "Taxonomy" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingtrainingprogram> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingtraining> ;
+    skos:prefLabel "Program" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingtrainingproviderscorporateonlineLawRoom> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingtrainingproviderscorporateonline> ;
+    skos:prefLabel "Lawroom" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingwarningdesensitize> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingwarning> ;
+    skos:prefLabel "Desensitize" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingwarningdesign> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingwarning> ;
+    skos:prefLabel "Design" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingwarninginformation_systeminterjectiontechnological> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingwarninginformation_systeminterjection> ;
+    skos:prefLabel "Technological" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#sourcetrusted> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#source> ;
+    skos:prefLabel "Trusted" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#sourcetrustworthy> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#source> ;
+    skos:prefLabel "Trustworthy" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#target> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#vocabs> ;
+    skos:prefLabel "Target" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#taxonomy> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#vocabs> ;
+    skos:prefLabel "Taxonomy" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#toolcostlow> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#toolcost> ;
+    skos:prefLabel "Low" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#toolsetturnkey> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#toolset> ;
+    skos:prefLabel "Turnkey" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#webdark> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#web> ;
+    skos:prefLabel "Dark" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#weblight> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#web> ;
+    skos:prefLabel "Light" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#websitefakedetectionsystem> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#websitefakedetection> ;
+    skos:prefLabel "System" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#websitepharming> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#website> ;
+    skos:prefLabel "Pharming" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#whaling> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#vocabs> ;
+    skos:prefLabel "Whaling" .
+
+<https://data.uc.edu.au/def/cybersecurity/article#1b> a dct:BibliographicResource,
+        skos:ConceptScheme ;
+    dct:creator "Png et al." ;
+    dct:date 2008 ;
+    dct:source "A third article" ;
+    skos:prefLabel "A third article" .
+
+<https://data.uc.edu.au/def/cybersecurity/article#1c> a dct:BibliographicResource,
+        skos:ConceptScheme ;
+    dct:creator "Willison and Warketin" ;
+    dct:date 2013 ;
+    dct:source "A fourth article" ;
+    skos:prefLabel "A fourth article" .
+
+<https://data.uc.edu.au/def/cybersecurity/article#6> a dct:BibliographicResource,
+        skos:ConceptScheme ;
+    dct:creator "http://docs.apwg.org/reports/apwg_trends_report_q4_2017.pdf" ;
+    dct:date 2017 ;
+    dct:source "APWG phishing trends report 4th quarter 2017" ;
+    skos:prefLabel "APWG phishing trends report 4th quarter 2017" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1antiphishingemailtoolmechanism> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1antiphishingemailtool> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#antiphishingemailtoolmechanism> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Mechanism" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1antiphishingsoftware> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1antiphishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#antiphishingsoftware> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Software" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1cybercriminal> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#cybercriminal> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Cybercriminal" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1cybersecurity> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#cybersecurity> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Cybersecurity" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureorganisationalsoftwareantiphishing> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureorganisationalsoftware> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisationalsoftwareantiphishing> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Anti-phishing" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchdirection> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearch> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchdirection> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Direction" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingtraining> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingtraining> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Training" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#2website> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/article#2> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#website> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#2> ;
+    skos:prefLabel "Website" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#antiphishingemail> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#antiphishing> ;
+    skos:prefLabel "Email" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#antiphishingemailtool> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#antiphishingemail> ;
+    skos:prefLabel "Tool" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#breachsocial> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#breach> ;
+    skos:prefLabel "Social" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#cybersecurity> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#vocabs> ;
+    skos:prefLabel "Cybersecurity" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#cybersecuritycountermeasure> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#cybersecurity> ;
+    skos:prefLabel "Countermeasure" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#cybersecuritycountermeasuretechnical> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#cybersecuritycountermeasure> ;
+    skos:prefLabel "Technical" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#personcriminal> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#person> ;
+    skos:prefLabel "Criminal" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#personprofessional> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#person> ;
+    skos:prefLabel "Professional" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingasset> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishing> ;
+    skos:prefLabel "Asset" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackcountermeasure> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattack> ;
+    skos:prefLabel "Countermeasure" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackfuture> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattack> ;
+    skos:prefLabel "Future" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackimpact> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattack> ;
+    skos:prefLabel "Impact" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackorganisation> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattack> ;
+    skos:prefLabel "Organisation" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackorganisationimpact> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackorganisation> ;
+    skos:prefLabel "Impact" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattempt> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishing> ;
+    skos:prefLabel "Attempt" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualinfluence> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividual> ;
+    skos:prefLabel "Influence" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualknowledge> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividual> ;
+    skos:prefLabel "Knowledge" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualmotivation> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividual> ;
+    skos:prefLabel "Motivation" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualmotivationbehaviour> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualmotivation> ;
+    skos:prefLabel "Behaviour" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualmotivationbehaviourprotection> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualmotivationbehaviour> ;
+    skos:prefLabel "Protection" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualmotivationbehaviourprotectionasset> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualmotivationbehaviourprotection> ;
+    skos:prefLabel "Asset" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividualprogram> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividual> ;
+    skos:prefLabel "Program" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisationalloss> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisational> ;
+    skos:prefLabel "Loss" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisationallossinformation> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisationalloss> ;
+    skos:prefLabel "Information" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisationalsoftware> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisational> ;
+    skos:prefLabel "Software" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasuretechnicalsoftware> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasuretechnical> ;
+    skos:prefLabel "Software" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingevolution> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishing> ;
+    skos:prefLabel "Evolution" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingimpact> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishing> ;
+    skos:prefLabel "Impact" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingkit> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishing> ;
+    skos:prefLabel "Kit" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishinglifecycle> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishing> ;
+    skos:prefLabel "Lifecycle" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishinglifecyclephase> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishinglifecycle> ;
+    skos:prefLabel "Phase" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingmessageeffective> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingmessage> ;
+    skos:prefLabel "Effective" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingperimeter> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishing> ;
+    skos:prefLabel "Perimeter" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchmethodanalysis> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchmethod> ;
+    skos:prefLabel "Analysis" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchmethodexperiment> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchmethod> ;
+    skos:prefLabel "Experiment" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchmethodmodeling> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchmethod> ;
+    skos:prefLabel "Modeling" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchtheorymotivation> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchtheory> ;
+    skos:prefLabel "Motivation" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchtheorypersuasion> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchtheory> ;
+    skos:prefLabel "Persuasion" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingrule> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishing> ;
+    skos:prefLabel "Rule" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingstudylevel> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingstudy> ;
+    skos:prefLabel "Level" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingstudylongitudinal> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingstudy> ;
+    skos:prefLabel "Longitudinal" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingtrainingproviders> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingtraining> ;
+    skos:prefLabel "Providers" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingtrainingproviderscorporate> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingtrainingproviders> ;
+    skos:prefLabel "Corporate" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingtrainingproviderscorporateonline> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingtrainingproviderscorporate> ;
+    skos:prefLabel "Online" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingwarninginformation_system> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingwarning> ;
+    skos:prefLabel "Information system" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingwarninginformation_systeminterjection> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingwarninginformation_system> ;
+    skos:prefLabel "Interjection" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#toolcost> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#tool> ;
+    skos:prefLabel "Cost" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#toolset> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#tool> ;
+    skos:prefLabel "Set" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#websiteauthenticate> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#website> ;
+    skos:prefLabel "Authenticate" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#websitefake> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#website> ;
+    skos:prefLabel "Fake" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#websitefakedetection> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#websitefake> ;
+    skos:prefLabel "Detection" .
+
+<https://data.uc.edu.au/def/cybersecurity/article#2> skos:hasTopConcept <https://data.uc.edu.au/def/cybersecurity/vocabulary#2website> .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1breach> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#breach> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Breach" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1link> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#link> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Link" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1person> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#person> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Person" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishinglifecyclephasebreach> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishinglifecyclephase> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishinglifecyclephasebreach> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Breach" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingmessage> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingmessage> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Message" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearch> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearch> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Research" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchdirectioncountermeasure> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchdirection> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchdirectioncountermeasure> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Countermeasure" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingstudy> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingstudy> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Study" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingwarning> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingwarning> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Warning" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1source> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#source> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Source" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1tool> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#tool> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Tool" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1web> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#web> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Web" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1websitefake> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1website> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#websitefake> ;
+    skos:exactMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#1websitepharming> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Fake" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#antiphishingemailtoolmechanism> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#antiphishingemailtool> ;
+    skos:prefLabel "Mechanism" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#antiphishingsoftware> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#antiphishing> ;
+    skos:prefLabel "Software" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#breach> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#vocabs> ;
+    skos:prefLabel "Breach" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#link> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#vocabs> ;
+    skos:prefLabel "Link" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#person> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#vocabs> ;
+    skos:prefLabel "Person" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisationalsoftwareantiphishing> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisationalsoftware> ;
+    skos:prefLabel "Anti-phishing" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchdirection> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearch> ;
+    skos:prefLabel "Direction" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingtraining> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishing> ;
+    skos:prefLabel "Training" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#source> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#vocabs> ;
+    skos:prefLabel "Source" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#tool> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#vocabs> ;
+    skos:prefLabel "Tool" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#web> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#vocabs> ;
+    skos:prefLabel "Web" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1antiphishing> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#antiphishing> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Anti-phishing" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackdefenceeffect> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackdefence> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdefenceeffect> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Effect" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasuretechnical> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasure> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasuretechnical> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Technical" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingform> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingform> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Form" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchmethod> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearch> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchmethod> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Method" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1website> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#website> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Website" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#antiphishing> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#vocabs> ;
+    skos:prefLabel "Anti-phishing" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishinglifecyclephasebreach> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishinglifecyclephase> ;
+    skos:prefLabel "Breach" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingmessage> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishing> ;
+    skos:prefLabel "Message" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearch> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishing> ;
+    skos:prefLabel "Research" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchdirectioncountermeasure> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchdirection> ;
+    skos:prefLabel "Countermeasure" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingstudy> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishing> ;
+    skos:prefLabel "Study" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingwarning> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishing> ;
+    skos:prefLabel "Warning" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattackdefence> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattack> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdefence> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Defence" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdefenceeffect> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdefence> ;
+    skos:prefLabel "Effect" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasuretechnical> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasure> ;
+    skos:prefLabel "Technical" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingform> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishing> ;
+    skos:prefLabel "Form" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchmethod> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearch> ;
+    skos:prefLabel "Method" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#website> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#vocabs> ;
+    skos:prefLabel "Website" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureindividual> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasure> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividual> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Individual" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasureorganisational> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasure> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisational> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Organisational" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearchtheory> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingresearch> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchtheory> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Theory" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattackdefence> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattack> ;
+    skos:prefLabel "Defence" .
+
+<https://data.uc.edu.au/def/cybersecurity/article#articles> a skos:Concept ;
+    skos:prefLabel "Article" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureindividual> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasure> ;
+    skos:prefLabel "Individual" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasureorganisational> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasure> ;
+    skos:prefLabel "Organisational" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearchtheory> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingresearch> ;
+    skos:prefLabel "Theory" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingcountermeasure> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasure> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Countermeasure" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingcountermeasure> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishing> ;
+    skos:prefLabel "Countermeasure" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishingattack> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishing> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattack> ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Attack" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#vocabs> a skos:Concept ;
+    skos:prefLabel "Cyber Security Vocabulary" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishingattack> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishing> ;
+    skos:prefLabel "Attack" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishing> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:closeMatch <https://data.uc.edu.au/def/cybersecurity/vocabulary#phishing> ;
+    skos:definition "Attempts to acquire confidential information from a mass group of people by masquerading as a trustworthy source." ;
+    skos:inScheme <https://data.uc.edu.au/def/cybersecurity/article#1> ;
+    skos:prefLabel "Phishing" .
+
+<https://data.uc.edu.au/def/cybersecurity/vocabulary#phishing> a skos:Concept ;
+    skos:broader <https://data.uc.edu.au/def/cybersecurity/vocabulary#vocabs> ;
+    skos:prefLabel "Phishing" .
+
+<https://data.uc.edu.au/def/cybersecurity/article#1> a dct:BibliographicResource,
+        skos:ConceptScheme ;
+    dct:creator "Daile Pienta, Jason Bennet Thatcher, Allen C. Johnston" ;
+    dct:date 2018 ;
+    dct:source "A Taxonomy of Phishing: Attack Types Spanning Economic, Temporal, Breath, and Target Boundaries" ;
+    skos:hasTopConcept <https://data.uc.edu.au/def/cybersecurity/vocabulary#1antiphishing>,
+        <https://data.uc.edu.au/def/cybersecurity/vocabulary#1breach>,
+        <https://data.uc.edu.au/def/cybersecurity/vocabulary#1cloning_social_engineering>,
+        <https://data.uc.edu.au/def/cybersecurity/vocabulary#1cybercriminal>,
+        <https://data.uc.edu.au/def/cybersecurity/vocabulary#1cybersecurity>,
+        <https://data.uc.edu.au/def/cybersecurity/vocabulary#1link>,
+        <https://data.uc.edu.au/def/cybersecurity/vocabulary#1malware>,
+        <https://data.uc.edu.au/def/cybersecurity/vocabulary#1person>,
+        <https://data.uc.edu.au/def/cybersecurity/vocabulary#1pharming>,
+        <https://data.uc.edu.au/def/cybersecurity/vocabulary#1phishing>,
+        <https://data.uc.edu.au/def/cybersecurity/vocabulary#1source>,
+        <https://data.uc.edu.au/def/cybersecurity/vocabulary#1target>,
+        <https://data.uc.edu.au/def/cybersecurity/vocabulary#1taxonomy>,
+        <https://data.uc.edu.au/def/cybersecurity/vocabulary#1tool>,
+        <https://data.uc.edu.au/def/cybersecurity/vocabulary#1web>,
+        <https://data.uc.edu.au/def/cybersecurity/vocabulary#1website>,
+        <https://data.uc.edu.au/def/cybersecurity/vocabulary#1whaling> ;
+    skos:prefLabel "A Taxonomy of Phishing: Attack Types Spanning Economic, Temporal, Breath, and Target Boundaries" .
+

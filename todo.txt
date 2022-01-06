@@ -1,0 +1,11 @@
+
+keyword concept scheme
+   - close match to all use - done
+
+exact matches between articles with name/authors/year - done
+
+exact matches between definition that is referenced to another article (refereces column) - done
+
+exact matches between synonym in the same article (synonym column) - done
+
+

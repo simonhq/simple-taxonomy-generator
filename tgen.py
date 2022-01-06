@@ -24,13 +24,13 @@ TAXA = "./out_tax"+ str(dtoday) +".ttl" #change this to the output file to write
 #variables
 ontname = "cybersecurity" #change this to the name of the taxonomy
 taxtype = "csdomain" #change this to the name of the schema
-taxtypename  = "Cyber Security Domain" #change this to the display name of the schema
+taxtypename  = "A Cyber Security Domain" #change this to the display name of the schema
 artclass = "article" #change this the specific class that inherits from skos:Concept (or just use a keyword)
 artclassname = "Article" #change this the specific class that inherits from skos:Concept (or just use a keyword)
 arttop = "articles" #change this the specific name of the top level concept for the articles
-conclass = "keyword" #change this the specific class that inherits from skos:Concept (or just use a keyword)
-conclassname  = "Cyber Security Keyword" #change this to the display name of the concepts
-contop = "keywords" #change this the specific name of the top level concept for the keywords
+conclass = "vocabulary" #change this the specific class that inherits from skos:Concept (or just use a keyword)
+conclassname  = "Cyber Security Vocabulary" #change this to the display name of the concepts
+contop = "vocabs" #change this the specific name of the top level concept for the keywords
 
 #Namespaces
 ONT = Namespace("https://data.uc.edu.au/def/" + ontname + "/")
@@ -60,6 +60,9 @@ def maketax(*args):
       # bind the prefixes
       bind_prefixes(atax)
       atax.bind("ONT", ONT)
+      
+      #atax.add((TAX, RDF.type, OWL.Ontology))
+      #atax.add((TAX, RDFS.label, Literal(taxtypename)))
 
       #create the conceptschmeme and top level 
       atax.add((TAX, RDF.type, SKOS.ConceptScheme))
@@ -74,6 +77,7 @@ def maketax(*args):
       atax.add((ELEC, RDF.type, SKOS.Concept))
       atax.add((TAX, SKOS.hasTopConcept, ELEC))
       atax.add((ELEC, SKOS.prefLabel, Literal(conclassname)))
+
 
       #---------------------------------------------------------------------
 
@@ -91,17 +95,28 @@ def maketax(*args):
             vtitle = ws.cell(active_row,column=2).value
             vyear = ws.cell(active_row,column=3).value
             vauth = ws.cell(active_row,column=4).value
-            vref = ws.cell(active_row,column=5).value
+            vrefset = str(ws.cell(active_row,column=5).value).strip().split("|")
             
-            atax.add((URIRef(ART + vid), RDF.type, SKOS.Concept))
+            atax.add((URIRef(ART + vid), RDF.type, SKOS.ConceptScheme))
             atax.add((URIRef(ART + vid), SKOS.prefLabel, Literal(vtitle)))
+            atax.add((URIRef(ART + vid), RDF.type, DCTERMS.BibliographicResource))
             atax.add((URIRef(ART + vid), DCTERMS.date, Literal(vyear)))
+            atax.add((URIRef(ART + vid), DCTERMS.source, Literal(vtitle)))
             atax.add((URIRef(ART + vid), DCTERMS.creator, Literal(vauth)))
-            atax.add((URIRef(ART + vid), DCTERMS.creator, Literal(vauth)))
-            atax.add((URIRef(ART + vid), DCTERMS.references, Literal(vref)))
-            atax.add((URIRef(ART + vid), SKOS.broader, ARTC))
-         
+
+            for vref in vrefset:
+               if vref != 'None':
+                  atax.add((URIRef(ART + vid), DCTERMS.references, URIRef(ART + vref)))
       
+            #####################################################################################################
+            #now add it to the master list
+            vit = str(vtitle).strip().translate(REPLACEALL)
+            atax.add((URIRef(ART + vit), RDF.type, SKOS.Concept))
+            atax.add((URIRef(ART + vit), SKOS.prefLabel, Literal(vtitle)))
+            atax.add((URIRef(ART + vit), SKOS.exactMatch, URIRef(ART + vid)))
+            atax.add((URIRef(ART + vit), SKOS.broader, ARTC))
+            #####################################################################################################
+
       ws = wb['Keyword']
 
       active_row = 0
@@ -121,21 +136,52 @@ def maketax(*args):
             for i in range(0,tcnt):
                lval = eval
                eval = eval + tval[i].strip().translate(REPLACEALL)
-
-               atax.add((URIRef(ELE + eval), RDF.type, SKOS.Concept))
-               atax.add((URIRef(ELE + eval), SKOS.prefLabel, Literal(tval[i].strip())))
-               #link them all to the article
                vid = str(ws.cell(active_row,column=2).value).strip().translate(REPLACEALL)
-               atax.add((URIRef(ELE + eval), DCTERMS.bibliographicCitation, URIRef(ART + vid)))
-               if i == 0:
-                  atax.add((URIRef(ELE + eval), SKOS.broader, ELEC))
-               else:
-                  atax.add((URIRef(ELE + eval), SKOS.broader, URIRef(ELE + lval)))
+
+               if tval[i] != 'None':
+
+                  atax.add((URIRef(ELE + vid + eval), RDF.type, SKOS.Concept))
+                  atax.add((URIRef(ELE + vid + eval), SKOS.prefLabel, Literal(tval[i].strip().capitalize())))
+                  #link them all to the article 
+                  atax.add((URIRef(ELE + vid + eval), SKOS.inScheme, URIRef(ART + vid)))
+                  #atax.add((URIRef(ELE + eval), DCTERMS.bibliographicCitation, URIRef(ART + vid)))
+                  if i == 0:
+                     atax.add((URIRef(ART + vid), SKOS.hasTopConcept, URIRef(ELE + vid + eval)))
+                     atax.add((URIRef(ELE + vid + eval), SKOS.broader, URIRef(ART + vid)))
+                  else:
+                     atax.add((URIRef(ELE + vid + eval), SKOS.broader, URIRef(ELE + vid + lval)))
+
+                  #####################################################################################################
+                  #now add it to the master list
+                  if i == 0:
+                     atax.add((URIRef(ELE + eval), RDF.type, SKOS.Concept))
+                     atax.add((URIRef(ELE + eval), SKOS.prefLabel, Literal(tval[i].strip().capitalize())))
+                     atax.add((URIRef(ELE + eval), SKOS.broader, ELEC))
+                     atax.add((URIRef(ELE + vid + eval), SKOS.closeMatch, URIRef(ELE + eval)))
+                  else:
+                     atax.add((URIRef(ELE + eval), RDF.type, SKOS.Concept))
+                     atax.add((URIRef(ELE + eval), SKOS.prefLabel, Literal(tval[i].strip().capitalize())))
+                     atax.add((URIRef(ELE + eval), SKOS.broader, URIRef(ELE + lval)))
+                     atax.add((URIRef(ELE + vid + eval), SKOS.closeMatch, URIRef(ELE + eval)))
+                  #####################################################################################################
 
             #now that the eval is the final link - add definition
             kdef = ws.cell(active_row,column=5).value
             if kdef != None:
-               atax.add((URIRef(ELE + eval), SKOS.definition, Literal(kdef)))
+               atax.add((URIRef(ELE + vid + eval), SKOS.definition, Literal(str(kdef).strip().capitalize())))
+            
+            #####################################################################################################
+            #add the link to a direct reference
+            rdef = ws.cell(active_row,column=6).value
+            if rdef != None:
+               rdef = str(rdef).strip()
+               atax.add((URIRef(ELE + rdef + eval), RDF.type, SKOS.Concept))
+               atax.add((URIRef(ELE + rdef + eval), SKOS.inScheme, URIRef(ART + rdef)))
+               atax.add((URIRef(ELE + rdef + eval), SKOS.prefLabel, Literal(ws.cell(active_row,column=3).value)))
+               atax.add((URIRef(ELE + vid + eval), SKOS.exactMatch, URIRef(ELE + rdef + eval)))
+               if kdef != None:
+                  atax.add((URIRef(ELE + rdef + eval), SKOS.definition, Literal(str(kdef).strip().capitalize())))
+            #####################################################################################################
 
             #now that the eval is the final link - add synonyms 
             #read and build the term detail
@@ -148,19 +194,31 @@ def maketax(*args):
                lsal = esal
                esal = esal + tsal[i].strip().translate(REPLACEALL)
 
-               atax.add((URIRef(ELE + esal), RDF.type, SKOS.Concept))
-               atax.add((URIRef(ELE + esal), SKOS.prefLabel, Literal(tsal[i].strip())))
-               #link them all to the article
-               sid = str(ws.cell(active_row,column=2).value).strip().translate(REPLACEALL)
-               atax.add((URIRef(ELE + esal), DCTERMS.bibliographicCitation, URIRef(ART + sid)))
-               if i == 0:
-                  atax.add((URIRef(ELE + esal), SKOS.broader, ELEC))
-               else:
-                  atax.add((URIRef(ELE + esal), SKOS.broader, URIRef(ELE + lsal)))
-               
+               if tsal[i] != 'None':
+                  atax.add((URIRef(ELE + vid + esal), RDF.type, SKOS.Concept))
+                  atax.add((URIRef(ELE + vid + esal), SKOS.prefLabel, Literal(tsal[i].strip().capitalize())))
+                  #link them all to the article
+                  atax.add((URIRef(ELE + vid + esal), SKOS.inScheme, URIRef(ART + vid)))
+                  if i == 0:
+                     atax.add((URIRef(ART + vid), SKOS.hasTopConcept, URIRef(ELE + vid + esal)))
+                  else:
+                     atax.add((URIRef(ELE + vid + esal), SKOS.broader, URIRef(ELE + vid + lsal)))
+
+                  #####################################################################################################
+                  #now add it to the master list
+                  if i == 0:
+                     atax.add((URIRef(ELE + esal), RDF.type, SKOS.Concept))
+                     atax.add((URIRef(ELE + esal), SKOS.broader, ELEC))
+                     atax.add((URIRef(ELE + vid + esal), SKOS.closeMatch, URIRef(ELE + esal)))
+                  else:
+                     atax.add((URIRef(ELE + esal), RDF.type, SKOS.Concept))
+                     atax.add((URIRef(ELE + esal), SKOS.broader, URIRef(ELE + lsal)))
+                     atax.add((URIRef(ELE + vid + esal), SKOS.closeMatch, URIRef(ELE + esal)))
+                  #####################################################################################################
+
             #link the final synonym pass to the final term pass
             if tsal[0] != 'None':
-               atax.add((URIRef(ELE + eval), SKOS.exactMatch, URIRef(ELE + esal)))
+               atax.add((URIRef(ELE + vid + eval), SKOS.exactMatch, URIRef(ELE + vid + esal)))
 
             
       # store it in a turtle file
