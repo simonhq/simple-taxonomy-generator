@@ -5,4 +5,11 @@ Currently using the following ontology
 
 ![Ontology](211207Taxonomyontology.png)
 
-4/01/2022
+Use
+
+```Python tgen.py``` 
+
+to generate the taxonomy based upon the data in the Excel template CSTax.xlsx
+
+
+7/01/2022
